@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CISO Run Game by Talence Security</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap">
+</head>
+<body>
+  
+  <!-- Game Title -->
+  <h1 class="game-title">CISO Run</h1>
+    
+  <!-- Game Container -->
+  <div id="gameContainer">
+    <canvas id="gameCanvas" width="1200" height="400"></canvas>
+    <div id="gameOverMessage"></div>
+    <div id="collectionMessage"></div>
+  </div>
+
+  <!-- Controls -->
+  <div id="controls">
+    <!-- Dark Mode Toggle -->
+    <label for="darkModeToggle" class="toggle-label">Dark Mode</label>
+    <label class="switch">
+      <input type="checkbox" id="darkModeToggle">
+      <span class="slider round"></span>
+    </label>
+
+    <!-- Sound Pills Toggle -->
+    <label for="soundToggle" class="toggle-label">Sounds</label>
+    <label class="switch">
+      <input type="checkbox" id="soundToggle" checked>
+      <span class="slider pill"></span>
+    </label>
+
+    <!-- Ambiance Theme Selector -->
+    <label for="ambianceSelector">Select Ambiance Theme:</label>
+    <select id="ambianceSelector" class="styled-select">
+      <option value="none">None</option>
+      <option value="1">Theme 1</option>
+      <option value="2">Theme 2</option>
+      <option value="3">Theme 3</option>
+      <option value="4">Theme 4</option>
+    </select>
+  </div>
+
+  <!-- Buttons -->
+  <div id="buttons">
+    <button id="replayButton" disabled>Replay</button>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>
+      Developed with <span class="heart">❤️</span> by 
+      <a href="https://www.talencesecurity.com" target="_blank" rel="noopener noreferrer">Talence Security</a> | 
+      <a href="https://github.com/TalenceSecurity/CISO-Run/" target="_blank" rel="noopener noreferrer">Source Code</a> | 
+      <a href="https://github.com/TalenceSecurity/CISO-Run/blob/main/LICENSE.md" target="_blank" rel="noopener noreferrer">License & Credits</a> | 
+      <a href="help.html" target="_blank" rel="noopener noreferrer">Help</a>
+    </p>
+  </footer>
+
+  <script src="assets/js/game.js"></script>
+</body>
+</html>
