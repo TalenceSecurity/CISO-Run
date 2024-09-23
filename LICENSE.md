@@ -38,6 +38,11 @@ This project uses several third-party assets (icons, images, and sounds) which a
 - monkik
 - surang
 - Infinite Dendrogram
+- tulpahn
+- Payungkead
+- mnauliady
+- Aldo Cervantes
+- Vectors Market
 
 ### **Sounds**
 
