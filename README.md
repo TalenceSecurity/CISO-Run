@@ -8,6 +8,7 @@
 
 ## Table of Contents
 
+- [Play Online](#play-online)
 - [Installation](#installation)
 - [How to Play](#how-to-play)
 - [Screenshots](#screenshots)
@@ -16,16 +17,28 @@
 
 ---
 
+## Play Online
+
+You can play **CISO Run** online at:
+```bash
+https://www.talencesecurity.com/games/ciso-run/index.html
+```
+👉 **[Click here](https://www.talencesecurity.com/games/ciso-run/index.html)** 
+
+---
+
 ## Installation
 
-To install and run **CISO Run**, follow these steps:
+To install and run **CISO Run** locally, follow these steps:
 
 1. **Clone the repository:**
+
     ```bash
     git clone https://github.com/TalenceSecurity/CISO-Run.git
     ```
 
 2. **Navigate to the project folder:**
+
     ```bash
     cd CISO-Run
     ```
@@ -36,8 +49,9 @@ To install and run **CISO Run**, follow these steps:
 
 ## How to Play
 
-- **Objective:**  
-  Collect cybersecurity resources like firewalls, user training, and patches while dodging obstacles such as malware, cybercriminals, and ransomware.
+### Objective:
+  
+- Collect cybersecurity resources like firewalls, user training, and patches while dodging obstacles such as malware, cybercriminals, and ransomware.
 
 ### Controls:
 
@@ -52,20 +66,24 @@ To install and run **CISO Run**, follow these steps:
 
 - The game ends when you hit an obstacle. A message will appear, allowing you to replay and beat your high score.
 
+### Help:
+
+- Refer to `help.html` for further instructions.
+
 ---
 
 ## Screenshots
 
-![Gameplay Screenshot](assets/img/screenshots/gameplay1.png)  
-![Gameplay Screenshot](assets/img/screenshots/gameplay2.png)  
-![Gameplay Screenshot](assets/img/screenshots/gameplay3.png)  
-![Gameplay Screenshot](assets/img/screenshots/gameplay4.png)  
+![Gameplay Screenshot 1](assets/img/screenshots/gameplay1.png)
+![Gameplay Screenshot 2](assets/img/screenshots/gameplay2.png)
+![Gameplay Screenshot 3](assets/img/screenshots/gameplay3.png)
+![Gameplay Screenshot 4](assets/img/screenshots/gameplay4.png)
 
 ---
 
 ## Credits
 
-**CISO Run** is (C) Talence Security. It uses several third-party assets, including images and sounds. See the [LICENSE.md](LICENSE.md) file for details.
+**CISO Run** is © Talence Security. It uses several third-party assets, including images and sounds. See the [LICENSE.md](LICENSE.md) file for details.
 
 ---
 
